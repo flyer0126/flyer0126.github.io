@@ -1,15 +1,19 @@
 ---
 layout: post
-title: "About"
-author: "Chester"
+title: "关于我"
+author: "flyer0126"
 permalink: /about/
 ---
 
-A friend of mine writes short stories. One sunny day, I asked if he wanted a website to showcase his works and he agreed. I decided to use GitHub Pages to host his site. That way he wouldn't have to buy a domain and a server.
+flyer0126，上学时候注册的第一个个人邮箱"flyer0126@main.sina.com"，名称前缀一直沿用至今。曾供职于百度，负责百度Feed视频的在线架构相关研发工作。13年曾在好未来摩比事业部负责整个研发的事务。
 
-While doing some research up on GitHub Pages, I accidentally chanced upon this _simple, blog-aware, static site generator_ called [Jekyll](https://jekyllrb.com/) which works really well with GitHub Pages. I figured it would do just fine for my friend and I set about searching for a pretty theme. I wanted a theme with a _book-ish_ vibe. Unfortunately, most of the themes were too modern. Eventually, I caved and begun working on my own theme. With the help of [Poole](https://github.com/poole/poole), the Jekyll Butler, I was able to build **Tale**.
+是一个PHP程序员，略懂JS、Go、Python。在这些年的编码生涯中，也会停下来做下学习和总结，也算有所收获。
 
-## Contribute
-Feel free to create an issue or make a pull request on [GitHub](https://github.com/chesterhow/tale).
+算是一个喜欢创造，有理想的人，虽然这个社会压抑的让人无奈，还是选择努力去抗争，不甘于平凡，生生不息。
+
+非常喜欢的一句话："不畏将来，不念过往！"
+
+## 其他
+[个人Blog](http://flyer0126.iteye.com/)
 
 Thanks for reading!
