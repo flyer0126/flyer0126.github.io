@@ -11,7 +11,7 @@ array_search(0, ['a', 'b', 'c']) // 返回int(0)，相当于是第一个值的�
 但是，直观上看， 0并没有包含在['a', 'b', 'c']数组中，也不会等于'abc'这个字符串。
 那怎么解释上述的返回结果呢？
 
-###1、类型转换
+## 1、类型转换
 究其原因：**在数据比较前，PHP做了类型转换**。
 引用PHP官网关于“String conversion to numbers”解释如下：
 
@@ -31,7 +31,7 @@ echo intval('abc');  // 输出0
 ```
 in_array()和array_search()默认都是松散比较，相当于==，即得到true。
 
-###2、严格比较
+## 2、严格比较
 那怎么得到我们预期的结果呢？
 使用严格比较，如下所示：
 
@@ -41,7 +41,7 @@ array_search(0, ['a', 'b', 'c'], true) 	// 返回bool（false）
 0 === 'abc'								// 返回bool（false）
 ```
 
-###3、false 与 null
+## 3、false 与 null
 那么，如果用false和null与字符串数组比较，结果会如何呢？
 
 ```
@@ -50,7 +50,7 @@ in_array(false, ['a', 'b', 'c']) // 返回bool（false）
 ```
 null与false做比较值，字符串数组是不会转换为int型的。
 
-###4、数组中有true
+## 4、数组中有true
 另一个看起来比较奇怪的现象
 
 ```
@@ -58,3 +58,7 @@ in_array('a', [true, 'b', 'c'])		// 返回bool(true)，相当于数组里面有'
 array_search('a', [true, 'b', 'c']) // 返回int(0),相当于找到了字符串'a'
 ```
 至于原因：松散比较下，任何string都等于true，若强制校验，用严格比较即可。
+
+<br>
+
+_The end_
