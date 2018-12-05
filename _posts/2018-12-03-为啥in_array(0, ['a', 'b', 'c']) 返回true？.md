@@ -15,13 +15,11 @@ array_search(0, ['a', 'b', 'c']) // 返回int(0)，相当于是第一个值的�
 究其原因：**在数据比较前，PHP做了类型转换**。
 引用PHP官网关于“String conversion to numbers”解释如下：
 
-{% highlight markdown %}
 > When a string is evaluated in a numeric context, the resulting value and type are determined as follows.
-
+> 
 > If the string does not contain any of the characters '.', 'e', or 'E' and the numeric value fits into integer type limits (as defined by PHP_INT_MAX), the string will be evaluated as an integer. In all other cases it will be evaluated as a float.
-
+> 
 > The value is given by the initial portion of the string. If the string starts with valid numeric data, this will be the value used. Otherwise, the value will be 0 (zero). Valid numeric data is an optional sign, followed by one or more digits (optionally containing a decimal point), followed by an optional exponent. The exponent is an 'e' or 'E' followed by one or more digits.
-{% endhighlight %}
 
 文章开篇例子中，string类型数据第一个字符不是数字，就会转换为0，例如：
 
