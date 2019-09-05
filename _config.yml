@@ -27,3 +27,8 @@ plugins:
 # Permalinks
 permalink:      /:year-:month-:day/:title
 paginate:       5
+
+#gitment
+comment_gitment_repo: flyer0126.github.io
+comment_gitment_clientId: Iv1.76999e59e476af38
+comment_gitment_clientSecret: 54ca2e088a0c7570b5045915c0a9de12c1286a91
