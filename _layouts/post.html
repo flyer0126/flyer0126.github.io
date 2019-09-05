@@ -31,11 +31,11 @@ layout: default
 <script>
 const gitalk = new Gitalk({
   clientID: '{{site.comment_gitment_clientId}}',
-  clientSecret: '{{site.comment_gitment_clientSecret}',
+  clientSecret: '{{site.comment_gitment_clientSecret}}',
   repo: '{{site.comment_gitment_repo}}',
-  owner: '{site.github_username}}',
+  owner: '{{site.github_username}}',
   admin: ['GitHub repo owner and collaborators, only these guys can initialize github issues'],
-  id: location.pathname,      // Ensure uniqueness and length less than 50
+  id: {{site.comment_gitment_repo}},      // Ensure uniqueness and length less than 50
   distractionFreeMode: false  // Facebook-like distraction free mode
 })
 
