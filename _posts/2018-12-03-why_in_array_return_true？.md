@@ -1,3 +1,9 @@
+---
+layout: post
+title: "为啥in_array(0,['a', 'b', 'c']) 返回为true？"
+author: "flyer0126"
+---
+
 # 为啥in_array(0,['a', 'b', 'c']) 返回为true？
 
 问题背景：  

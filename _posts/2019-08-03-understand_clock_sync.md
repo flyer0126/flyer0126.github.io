@@ -1,3 +1,9 @@
+---
+layout: post
+title: "理解'时钟同步'"
+author: "flyer0126"
+---
+
 # 理解“时钟同步”
 
 
